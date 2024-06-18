@@ -1,3 +1,9 @@
+# Malvado Favorito
+
+Índices e resultados do último governo e atual administração. Muitas informações não chegam ao público porque existe muito financiamento para acobertamento e propaganda.
+
+  - [malvadofavorito](malvadofavorito.vercel.app)
+
 # Next.js & Cloudinary example app
 
 This example shows how to create an image gallery site using Next.js, [Cloudinary](https://cloudinary.com), and [Tailwind](https://tailwindcss.com).
