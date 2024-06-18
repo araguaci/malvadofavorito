@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { useEffect, useRef } from "react";
 import Hexagon from "../components/Icons/Hexagon";
-import Voting from "../components/Icons/Voting";
+import Logo from "../components/Icons/Logo";
 import Modal from "../components/Modal";
 import cloudinary from "../utils/cloudinary";
 import getBase64ImageUrl from "../utils/generateBlurPlaceholder";
@@ -57,7 +57,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
               </span>
               <span className="absolute left-0 right-0 bottom-0 h-[400px] bg-gradient-to-b from-black/0 via-black to-black"></span>
             </div>
-            <Voting />
+            <Logo />
             <h1 className="mt-8 mb-4 text-base font-bold uppercase tracking-widest">
               RESULTADOS DE GOVERNOS
             </h1>
@@ -67,6 +67,14 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
             <p className="max-w-[40ch] text-white/75 sm:max-w-[32ch]">
               Muitas informações não chegam ao público porque existe muito financiamento para acobertamento e propaganda.
             </p>
+            <a
+              className="pointer z-10 mt-6 rounded-lg border border-white bg-white px-3 py-2 text-sm font-semibold text-black transition hover:bg-white/10 hover:text-white md:mt-4"
+              href="https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-cloudinary&project-name=nextjs-image-gallery&repository-name=with-cloudinary&env=NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME,CLOUDINARY_API_KEY,CLOUDINARY_API_SECRET,CLOUDINARY_FOLDER&envDescription=API%20Keys%20from%20Cloudinary%20needed%20to%20run%20this%20application"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Clone and Deploy
+            </a>
           </div>
           {images.map(({ id, public_id, format, blurDataUrl }) => (
             <Link
@@ -75,7 +83,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
               as={`/p/${id}`}
               ref={id === Number(lastViewedPhoto) ? lastViewedPhotoRef : null}
               shallow
-              className="after:content group relative mb-15 block w-full cursor-zoom-in after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight"
+              className="after:content group relative mb-5 block w-full cursor-zoom-in after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight"
             >
               <Image
                 alt="Next.js Conf photo"
