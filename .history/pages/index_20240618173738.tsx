@@ -99,15 +99,16 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
       </main>
       <footer className="p-6 text-center text-white/80 sm:p-12 content-center">
         <div className="w-[128px] p-1 mx-auto text-center">
-          <Link
+          <a
             href="https://www.artesdosul.com/"
             target="_blank"
+            alt="Thank you to artesdosul"
             title="Thank you to artesdosul"
             className="font-semibold hover:text-white content-center"
             rel="noreferrer"
           >
-            <Minion />
-          </Link>
+            <Minion className="h-48 w-48" />
+          </a>
         </div>
       </footer>
     </>

@@ -106,7 +106,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
             className="font-semibold hover:text-white content-center"
             rel="noreferrer"
           >
-            <Minion />
+            <Minion className="h-48 w-48" />
           </Link>
         </div>
       </footer>

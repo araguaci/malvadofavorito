@@ -102,11 +102,12 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
           <Link
             href="https://www.artesdosul.com/"
             target="_blank"
+            alt="Thank you to artesdosul"
             title="Thank you to artesdosul"
             className="font-semibold hover:text-white content-center"
             rel="noreferrer"
           >
-            <Minion />
+            <Minion className="h-48 w-48" />
           </Link>
         </div>
       </footer>
