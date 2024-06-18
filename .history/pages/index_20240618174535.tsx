@@ -70,12 +70,12 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
               financiamento para acobertamento e propaganda.
             </p>
             <a
-              className="pointer z-10 mt-6 rounded-lg border border-white bg-green px-3 py-2 text-sm font-semibold text-yellow transition hover:bg-white/10 hover:text-white md:mt-4"
+              className="pointer z-10 mt-6 rounded-lg border border-white bg-white px-3 py-2 text-sm font-semibold text-black transition hover:bg-white/10 hover:text-white md:mt-4"
               href="https://patria-amada-brasil.vercel.app/"
               target="_blank"
               rel="noreferrer"
             >
-              Governo Pátria Amada Brasil (2018{"-"}2022)
+              Entregas do Malvadão
             </a>
           </div>
           {images.map(({ id, public_id, format, blurDataUrl }) => (

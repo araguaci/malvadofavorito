@@ -75,7 +75,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
               target="_blank"
               rel="noreferrer"
             >
-              Governo Pátria Amada Brasil (2018{"-"}2022)
+              Governo Patria Amada Brasil (2018{"-"}2022)
             </a>
           </div>
           {images.map(({ id, public_id, format, blurDataUrl }) => (
