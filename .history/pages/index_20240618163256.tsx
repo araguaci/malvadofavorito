@@ -98,7 +98,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
         </div>
       </main>
       <footer className="p-6 text-center text-white/80 sm:p-12 content-center">
-        <div class="w-[128px] p-1 mx-auto text-center">
+        <div class="w-1/2 p-4 mx-auto text-center border">
           <a
             href="https://www.artesdosul.com/"
             target="_blank"

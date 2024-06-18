@@ -6,7 +6,6 @@ import { useRouter } from "next/router";
 import { useEffect, useRef } from "react";
 import Hexagon from "../components/Icons/Hexagon";
 import Voting from "../components/Icons/Voting";
-import Minion from "../components/Icons/Minion";
 import Modal from "../components/Modal";
 import cloudinary from "../utils/cloudinary";
 import getBase64ImageUrl from "../utils/generateBlurPlaceholder";
@@ -63,11 +62,10 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
               RESULTADOS DE GOVERNOS
             </h1>
             <p className="max-w-[40ch] text-white/75 sm:max-w-[32ch]">
-              Índices e resultados do último governo e atual administração.
+              Índices e resultados do último governo e atual administração. 
             </p>
             <p className="max-w-[40ch] text-white/75 sm:max-w-[32ch]">
-              Muitas informações não chegam ao público porque existe muito
-              financiamento para acobertamento e propaganda.
+              Muitas informações não chegam ao público porque existe muito financiamento para acobertamento e propaganda.
             </p>
           </div>
           {images.map(({ id, public_id, format, blurDataUrl }) => (
@@ -97,19 +95,21 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
           ))}
         </div>
       </main>
-      <footer className="p-6 text-center text-white/80 sm:p-12 content-center">
-        <div class="w-[128px] p-1 mx-auto text-center">
-          <a
-            href="https://www.artesdosul.com/"
-            target="_blank"
-            alt="Thank you to artesdosul"
-            title="Thank you to artesdosul"
-            className="font-semibold hover:text-white content-center"
-            rel="noreferrer"
-          >
-            <Minion className="h-48 w-48" />
-          </a>
-        </div>
+      <footer className="p-6 text-center text-white/80 sm:p-12">
+        <a
+          href="https://www.artesdosul.com/"
+          target="_blank"
+          className="font-semibold hover:text-white content-center"
+          rel="noreferrer"
+        >
+          <Image
+      priority
+      src="./minion.svg"
+      height={48}
+      width={48}
+      alt="Thank you to artesdosul"
+    />
+        </a> 
       </footer>
     </>
   );
