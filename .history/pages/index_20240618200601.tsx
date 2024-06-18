@@ -36,19 +36,9 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
           property="og:image"
           content="https://e0.pxfuel.com/wallpapers/614/1019/desktop-wallpaper-despicable-me-2-minions-x-post-from-i-black-minion.jpg"
         />
-        <meta name="twitter:card" content="summary" />
-        <meta property="twitter:title" content="💠Meu Malvado Favorito💠" />
         <meta
-          property="twitter:description"
-          content="Índices e resultados do último governo e atual administração."
-        />
-        <meta
-          property="twitter:image"
+          name="twitter:image"
           content="https://e0.pxfuel.com/wallpapers/614/1019/desktop-wallpaper-despicable-me-2-minions-x-post-from-i-black-minion.jpg"
-        />
-        <meta
-          property="twitter:url"
-          content="https://malvadofavorito.vercel.app/"
         />
       </Head>
       <main className="mx-auto max-w-[1960px] p-4">
