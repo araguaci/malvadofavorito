@@ -70,7 +70,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
               financiamento para acobertamento e propaganda.
             </p>
             <a
-              className="pointer z-10 mt-6 rounded-lg border border-white bg-green-700 px-3 py-2 text-sm font-semibold text-yellow transition hover:bg-yellow-300 hover:text-green-900 md:mt-4"
+              className="pointer z-10 mt-6 rounded-lg border border-white bg-green-700 px-3 py-2 text-sm font-semibold text-yellow transition hover:bg-yellow-300 hover:text-green-700 md:mt-4"
               href="https://patria-amada-brasil.vercel.app/"
               target="_blank"
               rel="noreferrer"
