@@ -14,10 +14,7 @@ class MyDocument extends Document {
           <meta name="twitter:card" content="summary" />
           <meta property="twitter:title" content="💠Meu Malvado Favorito💠" />
           <meta property="og:title" content="💠Meu Malvado Favorito💠" />
-          <meta
-            property="og:description"
-            content="Índices e resultados do último governo e atual administração"
-          />
+          <meta property="og:description" content="Índices e resultados do último governo e atual administração" />
           <meta property="og:site_name" content="malvadofavorito.vercel.app" />
           <meta
             property="twitter:description"

@@ -14,10 +14,7 @@ class MyDocument extends Document {
           <meta name="twitter:card" content="summary" />
           <meta property="twitter:title" content="💠Meu Malvado Favorito💠" />
           <meta property="og:title" content="💠Meu Malvado Favorito💠" />
-          <meta
-            property="og:description"
-            content="Índices e resultados do último governo e atual administração"
-          />
+          <meta property="og:description" content="Índices e resultados do último governo e atual administração" />
           <meta property="og:site_name" content="malvadofavorito.vercel.app" />
           <meta
             property="twitter:description"
@@ -25,10 +22,6 @@ class MyDocument extends Document {
           />
           <meta
             property="twitter:image"
-            content="https://e0.pxfuel.com/wallpapers/614/1019/desktop-wallpaper-despicable-me-2-minions-x-post-from-i-black-minion.jpg"
-          />
-          <meta
-            property="og:image"
             content="https://e0.pxfuel.com/wallpapers/614/1019/desktop-wallpaper-despicable-me-2-minions-x-post-from-i-black-minion.jpg"
           />
           <meta
