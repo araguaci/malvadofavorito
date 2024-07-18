@@ -30,7 +30,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
   return (
     <>
       <Head>
-        <title>Next.js Conf 2022 Photos</title>
+        <title>Malvado Favorito</title>
         <meta
           property="og:image"
           content="https://e0.pxfuel.com/wallpapers/614/1019/desktop-wallpaper-despicable-me-2-minions-x-post-from-i-black-minion.jpg"
